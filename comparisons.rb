@@ -86,6 +86,7 @@ puts attendees != meals
 # PART 3: Logical Operators
 #-------------------
 
+puts "Part 3"
 is_hungry = true
 finished_homework = false
 
@@ -102,15 +103,17 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && is_a_puppy
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: I got an error saying I have an underfined local variable or method 'is_a_puppy' for main. We never defined is a puppy.
+# We did define an age but we never defined at what age is a dog not a puppy anymore?
