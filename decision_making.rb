@@ -35,9 +35,22 @@ end
 
 # Questions
 # 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
-# 2. What variable has a new value assigned to it after the first if statement executes?
-# 3. If you changed the variable door_choice to equal 3, what would the bear_clothing value be?
-# 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
-# 5. If you changed the variable bear_choice to equal 3, what will be the final outcome be?
-# 6. If you changed the variable door_choice to equal 1, and the variable bear_choice to equal 2, what will be the final outcome be?
-# 7. What is your favorite ending?
+# - We are using an if statement asking if the value in the variable door_choice is 1, then we will assign the string "hat" to the variable bear_clothing. The else statement will execute if the value in the variable door_choice is anything else but 1.
+
+# # 2. What variable has a new value assigned to it after the first if statement executes?
+# - The variable named bear_clothing will have a new value assigned.
+
+# # 3. If you changed the variable door_choice to equal 3, what would the bear_clothing value be?
+# - bear_clothing would now have the value of "scarf"
+
+# # 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
+# - We are actually using what is called concatenation to put multiple strings together along with the varaible using + signs.
+
+# # 5. If you changed the variable bear_choice to equal 3, what will be the final outcome be?
+# - The outcome will be "You run as fast as you can into the next room. It's full of snakes!"
+
+# # 6. If you changed the variable door_choice to equal 1, and the variable bear_choice to equal 2, what will be the final outcome be?
+# - The outcome would be "You tell the bear the hat is too small and it starts to cry!"
+
+# # 7. What is your favorite ending?
+# - I like happy endings! I choose "You stay with the bear and become its best friend!"
