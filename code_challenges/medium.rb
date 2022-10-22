@@ -11,7 +11,7 @@ elsif int % 5 == 0
 elsif int % 3 == 0
     puts "Fizz"
 else
-    puts "int"
+    puts int
 end
 
 # Just like in the mild challenege. I used the modulus operator to make sure the integer in the int variable were divisible by the number 3 or 5. I also used the && (and) operator to check if they were divisible by both. Since the if statement checks the conditions in order, I had to move it up so it checks if it's divisible by both first before checking if it's only divisible by either 3 or 5.
